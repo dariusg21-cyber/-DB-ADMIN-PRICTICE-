@@ -1,0 +1,4 @@
+BACKUP DATABASE HR 
+TO  DISK = 'D:\backup\hr.bak'
+WITH INIT,
+NAME = 'HR-Full Database Backup';
